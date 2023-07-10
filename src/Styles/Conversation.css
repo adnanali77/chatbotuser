@@ -1,0 +1,232 @@
+.main-center {
+    border-radius: 10px;
+    width: 100%;
+    height: 78vh;
+    color: rgb(70, 66, 66);
+    background-color: rgb(250, 247, 247);
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+}
+
+.main-right {
+    height: 75vh;
+    overflow-y: auto;
+}
+
+.conversation-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.conversation-name {
+    font-size: 12px;
+}
+
+.conversation-attended {
+    font-size: 12px;
+    color: gray;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px;
+}
+
+.line hr {
+    width: 5%;
+    margin: 0 0.5rem;
+    border: 1px solid lightgray;
+}
+
+.line span {
+    font-size: 12px;
+}
+
+.center-down {
+    height: 55%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: rgb(250, 247, 247);
+}
+
+.user-img {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
+
+.outsider {
+    display: flex;
+    margin-top: 0.6rem;
+}
+
+.user-outside {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 0.5rem;
+    width: 36%;
+}
+
+.user-outside span {
+    font-size: 12px;
+}
+
+.outside-user-message {
+    background-color: #fff;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    width: 96%;
+    margin-left: 0;
+}
+
+.outside-user-message-top {
+    width: 100%;
+    padding: 0.4rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.outside-user-message p {
+    font-size: 14px;
+    max-width: 90%;
+    overflow-wrap: break-word;
+}
+
+.outside-user-message-top h5 {
+    font-size: 0.6rem;
+    color: gray;
+}
+
+.time {
+    align-self: flex-start;
+}
+
+.owner {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8%;
+    margin-top: 0.6rem;
+    width: 96%;
+}
+.owner h5{
+    font-size: 0.6rem;
+    align-self: end;
+    margin-right: 7%;
+    color: gray;
+}
+.owner span {
+    font-size: 12px;
+    text-align: right;
+}
+
+.account-holder-message {
+    background-color: #082C67;
+    color: #fff;
+    margin-right: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.account-holder-message p {
+    font-size: 14px;
+    max-width: 90%;
+    overflow-wrap: break-word;
+}
+
+.inpput-message {
+    position: absolute;
+    bottom: -1%;
+    left: 2%;
+    width: 95%;
+    height: 2.5rem;
+    background-color: #fff;
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+    margin: 1.2rem 0 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 1px 4px 0 rgba(65, 62, 62, 0.2), -1px -1px 4px 0 rgba(56, 55, 55, 0.19);
+}
+
+.inpput-message input {
+    width: 86%;
+    border: none;
+    outline: none;
+    padding: 0.6rem;
+    margin-left: 0.5rem;
+}
+
+.inpput-message button {
+    background-color: #26A3F6;
+    border: none;
+    cursor: pointer;
+    padding: 1rem;
+    text-align: right;
+    border-radius: 5px;
+    height: 1rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.no-render-message {
+    font-size: 14px;
+    text-align: center;
+}
+
+.offline-logo {
+    margin: 1.5rem 45%;
+}
+
+.in-chat {
+    width: 90%;
+    display: flex;
+    border-right: 0.2px solid lightgray;
+}
+
+.in-icon {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin: 0 0.5rem;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+.send {
+    color: #fff;
+}
+
+.submit {
+    font-size: 18px;
+}
+
+.message-name {
+    font-size: 11px;
+    color: rgba(255, 0, 0, 0.9);
+    margin-top: 15px;
+}
+
+.message-time {
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.9);
+    margin-top: 0px;
+    margin-left: 5px;
+}
